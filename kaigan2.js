@@ -42,6 +42,8 @@ myArray.foo = 'foo';
 // __proto__を使って、インスタンスのコンストラクタ関数のprototypeプロパティーを取得することができる
 
 // コンストラクタ関数のプロトタイプチェーンの最後はObjectオブジェクトに行き着く
+// オブジェクト.Array.Objectのprototypeに行き着く流れ
+// array.__proto__.__proto__
 
 // ホストオブジェクト
 for (x in window) console.log(x); // windowオブジェクトのすべてのプロパティを列挙 javascriptのネイティブオブジェクトは列挙されない
