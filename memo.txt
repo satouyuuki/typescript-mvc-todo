@@ -1,2 +1,5 @@
 widnow.onloadメソッドで定義しないと値を取得できない 
   const deleteDone = document.getElementById('deleteDone');
+
+
+メソッドとプロパティーが入っている
